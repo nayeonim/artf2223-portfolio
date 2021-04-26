@@ -1,0 +1,110 @@
+html, body {
+    height: 100%;
+    padding: 0px;
+    margin: 0;
+    background-image: url("images/backgroundimage2.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+table{
+	border-collapse: collapse;
+	width: 100%;
+	margin-left: auto; 
+	margin-right: auto;
+}
+td {
+	width: 50%;
+	padding: 10px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.name {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 35px;
+    color: white;
+    font-family:'PT Serif', serif;
+}
+
+.enter {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 17px;
+    color: #FF0D83;
+    font-family: Helvetica, sans-serif;
+}
+.top-text {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    font-size: 18px;
+    color: white;
+    font-weight: lighter;
+    font-family: 'PT Serif', serif;
+}
+.top-text-2 {
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 60px;
+    font-size: 10px;
+    color: #2BBEF2;
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+}
+.bio{
+	vertical-align: bottom;
+	text-align: right;
+	width: 48%;
+}
+.bioimg {
+	width: 108px;
+	height: 108px;
+}
+.mgmtimg {
+	width: 148px;
+	height: 148px;
+}
+.design{
+	vertical-align: top;
+	text-align: right;
+	width: 48%;
+}
+.designimg {
+	width: 148px;
+	height: 148px;
+}
+.resume{
+	vertical-align: top;
+}
+.resumeimg {
+	width: 180px;
+	height: 180px;
+}
+.personalimg {
+	width: 99px;
+	height: 99px;
+}
+.linkedinimg {
+	width: 45px;
+	height: 45px;
+}
+.back{
+    text-align: center;	
+    padding-top: 100px;
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+}
+.backimg {
+	width: 25px;
+}

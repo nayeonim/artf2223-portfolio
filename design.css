@@ -1,0 +1,154 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 10pt;
+  background-color: #0c0c13;
+  height: 100%
+  overflow-y: hidden;
+}
+h4{
+  color: #2BBEF2;
+  font-family: 'PT Serif', serif;
+  text-align: center;
+}
+p, .p{
+  color: white;
+  font-size: 10pt;
+  text-align: center;
+}
+li{
+  margin: 5px;
+  font-size: 10pt;
+  margin-left: -10px;
+  color: white;
+}
+td {
+  width: 50%;
+  padding-right: 15px;
+  padding-bottom: 0px;
+  vertical-align: top;
+  text-align: left;
+}
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #2a2a44;
+  overflow-x: hidden;
+  padding-top: 20px;
+  display: flex;
+}
+.backimg{
+  width: 25px;
+  padding-left: 10px;
+}
+.sidenav-content{
+  align-self: center;
+}
+.sidenav-title{
+  display: inline-block;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16pt;
+  color: #ff8ac7;
+  text-align: left;
+}
+.sidenav-sub{
+  font-family: 'Roboto', sans-serif;
+  font-size: 10pt;
+  text-align: left;
+  color: white;
+}
+.description{
+  width: 500px;
+  margin: auto;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+.design-menu{
+  width: 540px;
+  height: 490px;
+  margin: auto;
+  position: relative;
+}
+.one {
+  width: 130px;
+  position: absolute;
+  top: 5px;
+  left: 170px;
+}.two {
+  width: 80px;
+  position: absolute;
+  top: 50px;
+  left: 315px;
+}.three {
+  width: 80px;
+  position: absolute;
+  top: 150px;
+  left: 105px;
+}.four {
+  width: 130px;
+  position: absolute;
+  top: 150px;
+  left: 200px;
+}.five {
+  width: 130px;
+  position: absolute;
+  top: 150px;
+  left: 345px;
+}.six {
+  width: 110px;
+  position: absolute;
+  top: 250px;
+  left: 75px;
+}.seven {
+  width: 160px;
+  position: absolute;
+  top: 305px;
+  left: 200px;
+}.five-direct{
+  width: 65px;
+  position: absolute;
+  top: 265px;
+  left: 410px;
+}.six-direct{
+  width: 65px;
+  position: absolute;
+  top: 345px;
+  left: 75px;
+}.seven-direct{
+  width: 107px;
+  position: absolute;
+  top: 395px;
+  left: 344px;
+}
+
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.lightertext{
+  color: #9c9cb5;
+  padding: 0;
+}
+
+
+
+
+
+
+
+
